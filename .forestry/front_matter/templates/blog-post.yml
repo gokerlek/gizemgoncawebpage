@@ -39,3 +39,5 @@ fields:
   config:
     min: 
     max: 
+pages:
+- cms/blog/deneme.json
