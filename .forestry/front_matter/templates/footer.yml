@@ -1,4 +1,42 @@
 ---
 label: Footer
 hide_body: true
-fields: []
+fields:
+- name: shortBio
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Short Bio
+- name: copyRight
+  type: text
+  config:
+    required: false
+  label: Copy Right
+- name: socialLinks
+  type: field_group_list
+  fields:
+  - name: icon
+    type: text
+    config:
+      required: false
+    label: Icon
+  - name: link
+    type: text
+    config:
+      required: false
+    label: Link
+  - name: color
+    type: color
+    label: Color
+    config:
+      required: false
+      color_format: Hex
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Social Links
