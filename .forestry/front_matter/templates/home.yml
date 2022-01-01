@@ -57,3 +57,5 @@ fields:
         path: 
     label: Blog Post
   label: Latest Post
+pages:
+- cms/pages/welcome.json
