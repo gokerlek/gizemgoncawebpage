@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import { SideButton } from './sideButton';
 
 export const Layout = ({ children, title = 'Gizem Gonca', menu, footer }) => {
   return (
@@ -7,8 +8,10 @@ export const Layout = ({ children, title = 'Gizem Gonca', menu, footer }) => {
         <title>{title}</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div className="bg-base w-full h-screen">
-        <div>{children}</div>
+      <div className="bg- w-full h-screen grid grid-cols-layout">
+        <SideButton left label="Opera Singer" />
+        {children}
+        <SideButton label="Voice and Piano Teacher" />
       </div>
     </>
   );

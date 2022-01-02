@@ -10,8 +10,8 @@ module.exports = {
         gallery:
           '0px 18px 80px rgba(0, 0, 0, 0.07),0px 2.31775px 10.0172px rgba(0, 0, 0, 0.035)',
       },
-      gridTemplateRows: {
-        layout: 'minmax(calc(100vh - 80px), max-content) minmax(330px, max-content)',
+      gridTemplateColumns: {
+        layout: 'max-content 1fr max-content',
       },
       spacing: {
         '80px': '80px',

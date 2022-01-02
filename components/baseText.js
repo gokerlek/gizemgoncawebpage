@@ -1,9 +1,5 @@
 import { RichText } from './richText.js';
 
-export const baseText = ({ children }) => {
-  return (
-    <div>
-      <RichText>{children}</RichText>
-    </div>
-  );
+export const BaseText = ({ children }) => {
+  return <div className="text-base text-ggz font-light ">{children}</div>;
 };
