@@ -2,7 +2,6 @@ const glob = require('glob');
 
 module.exports = {
   reactStrictMode: true,
-  target: 'serverless',
   images: {
     disableStaticImages: true,
   },

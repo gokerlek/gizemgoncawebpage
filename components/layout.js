@@ -8,7 +8,7 @@ export const Layout = ({ children, title = 'Gizem Gonca', menu, footer }) => {
         <title>{title}</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div className="bg- w-full h-screen grid grid-cols-layout">
+      <div className="w-full h-screen grid grid-cols-layout">
         <SideButton left label="Opera Singer" />
         {children}
         <SideButton label="Voice and Piano Teacher" />

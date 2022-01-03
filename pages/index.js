@@ -12,7 +12,7 @@ export default function Home() {
           width={260}
           height={260}
         />
-        <div className="text-ggz text-6xl font-bold">Gizem Gonca</div>
+        <div className="text-ggz-100 text-6xl font-bold">Gizem Gonca</div>
       </div>
     </Layout>
   );

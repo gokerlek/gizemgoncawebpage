@@ -5,6 +5,10 @@ module.exports = {
       fontFamily: {
         layout: ['Catamaran', 'sans - serif', 'Open Sans'],
       },
+      transformOrigin: {
+        leftButton: '50% 50%',
+        rightButton: '24px 50%',
+      },
       boxShadow: {
         menu: '0px 0px 96px rgba(0, 0, 0, 0.07), 0px 0px 12.0207px rgba(0, 0, 0, 0.035)',
         gallery:
@@ -20,8 +24,10 @@ module.exports = {
         menu: '900px',
       },
       colors: {
-        ggz: '#009FB7',
-        base: '#F5F5F5',
+        ggz: {
+          100: '#009FB7',
+          base: 'F5F5F5',
+        },
       },
     },
   },
