@@ -1,24 +1,81 @@
 {
   "menuItems": [
     {
+      "label": "",
+      "link": "",
+      "isInternal": true,
+      "left": [
+        {
+          "label": "About",
+          "link": "/about-opera"
+        },
+        {
+          "link": "/projects",
+          "label": "Projects"
+        },
+        {
+          "label": "Singles",
+          "link": "/singles"
+        }
+      ],
+      "right": [
+        {
+          "label": "Blog",
+          "link": "/blog"
+        },
+        {
+          "label": "Voice Therapy",
+          "link": "/therapy"
+        },
+        {
+          "label": "Private Lessons",
+          "link": "/lessons"
+        }
+      ]
+    },
+    {
       "label": "Home",
       "link": "/",
-      "isInternal": true
+      "isInternal": true,
+      "left": [
+
+      ],
+      "right": [
+
+      ]
     },
     {
       "link": "/blog",
       "isInternal": true,
-      "label": "Blog"
+      "label": "Blog",
+      "left": [
+
+      ],
+      "right": [
+
+      ]
     },
     {
       "label": "Projects",
       "link": "/projects",
-      "isInternal": true
+      "isInternal": true,
+      "left": [
+
+      ],
+      "right": [
+
+      ]
     },
     {
       "label": "About me",
       "link": "/about-me",
-      "isInternal": true
+      "isInternal": true,
+      "left": [
+
+      ],
+      "right": [
+
+      ]
     }
   ]
 }
