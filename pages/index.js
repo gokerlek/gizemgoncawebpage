@@ -1,9 +1,11 @@
-import Image from 'next/image';
-import { Layout } from '../components/layout';
+import Image from "next/image";
+import { Layout } from "../components/layout";
+import { getHome } from "../api/home";
 
-export default function Home() {
+const Home = ({ page, menu, footer }) => {
+  console.log(menu);
   return (
-    <Layout>
+    <Layout footer={footer}>
       <div className="flex flex-col justify-center items-center ">
         <Image
           className="border-solid rounded-full border-ggz border-2 "
@@ -16,4 +18,11 @@ export default function Home() {
       </div>
     </Layout>
   );
-}
+};
+
+export const getStaticProps = async () => {
+  const props = await getHome();
+  return { props };
+};
+
+export default Home;
