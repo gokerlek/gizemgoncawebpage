@@ -19,8 +19,46 @@ fields:
     type: boolean
     label: Is Internal ?
     default: true
+  - name: left
+    type: field_group_list
+    fields:
+    - name: label
+      type: text
+      config:
+        required: false
+      label: Label
+    - name: link
+      type: text
+      config:
+        required: false
+      label: Link
+    config:
+      min: 
+      max: 
+      labelField: 
+    label: Left
+  - name: right
+    type: field_group_list
+    fields:
+    - name: label
+      type: text
+      config:
+        required: false
+      label: Label
+    - name: link
+      type: text
+      config:
+        required: false
+      label: Link
+    config:
+      min: 
+      max: 
+      labelField: 
+    label: Right
   config:
     min: 
     max: 
     labelField: 
   label: Menu Items
+pages:
+- cms/menu.json
